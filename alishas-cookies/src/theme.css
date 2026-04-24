@@ -1,0 +1,157 @@
+/* =========================================
+   Alishai's Cookies — Bootstrap Theme Override
+   ========================================= */
+
+:root {
+  /* Brand Colors */
+  --primary-white: #FFFFFF;
+  --primary-red: #B30000;
+  --cream: #FFF4E6;
+  --cookie-brown: #8B5E3C;
+  --chocolate: #4A2C18;
+  --frosting-pink: #F7C6C7;
+  --white: #FFFFFF;
+
+  /* Bootstrap Overrides */
+  --bs-primary: var(--primary-red);
+  --bs-secondary: var(--cookie-brown);
+  --bs-success: #4CAF50;
+  --bs-info: var(--frosting-pink);
+  --bs-warning: #FFC107;
+  --bs-danger: #DC3545;
+  --bs-light: var(--cream);
+  --bs-dark: var(--chocolate);
+
+  /* Text Colors */
+  --bs-body-color: var(--white);
+  --bs-heading-color: var(--white);
+
+  /* Backgrounds */
+  --bs-body-bg: var(--primary-white);
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: var(--cream) !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--chocolate) !important;
+}
+
+.nav-link:hover {
+  color: var(--frosting-pink) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--chocolate);
+  border-color: var(--chocolate);
+}
+
+.btn-primary:hover {
+  background-color: var(--cookie-brown);
+  border-color: var(--cookie-brown);
+}
+
+/* Cards */
+.card {
+  background-color: var(--cream);
+  color: var(--chocolate);
+  border: none;
+  border-radius: 12px;
+}
+
+/* Form Controls */
+.form-control {
+  background-color: var(--cream);
+  color: var(--chocolate);
+  border: 1px solid var(--cookie-brown);
+}
+
+.form-control:focus {
+  border-color: var(--chocolate);
+  box-shadow: 0 0 0 0.2rem rgba(179, 0, 0, 0.25);
+}
+
+/* ============================
+   Hero Banner Styling
+   ============================ */
+
+.hero-banner {
+  background-color: var(--primary-red);
+  padding: 6rem 1rem;
+  border-bottom: 8px solid var(--chocolate);
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--cream);
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: var(--frosting-pink);
+}
+
+.hero-btn {
+  background-color: var(--chocolate) !important;
+  border-color: var(--chocolate) !important;
+  padding: 0.75rem 2rem;
+  border-radius: 10px;
+}
+
+.hero-btn:hover {
+  background-color: var(--cookie-brown) !important;
+  border-color: var(--cookie-brown) !important;
+}
+
+/* ============================
+   Footer Styling
+   ============================ */
+
+.footer {
+  background-color: var(--chocolate);
+  color: var(--cream);
+  border-top: 6px solid var(--cookie-brown);
+}
+
+.footer-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--cream);
+}
+
+.footer-subtitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--frosting-pink);
+}
+
+.footer-text {
+  color: var(--cream);
+  margin-bottom: 0.5rem;
+}
+
+.footer-links li {
+  margin-bottom: 0.4rem;
+}
+
+.footer-link {
+  color: var(--cream);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--frosting-pink);
+}
+
+.footer-copy {
+  color: var(--cream);
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
