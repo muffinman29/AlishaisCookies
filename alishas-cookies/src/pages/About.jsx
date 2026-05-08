@@ -6,7 +6,7 @@ function About() {
     <Container className="mt-5">
       <Row className="justify-content-center mb-4">
         <Col md={8} className="text-center">
-          <img src={AlishaiAndTim} alt="Alishai and Tim" className="img-fluid rounded-circle shadow-sm" style={{ height: "auto", width: "500px" }} />
+          <img src={AlishaiAndTim} alt="Alishai and Tim" className="img-fluid" style={{ height: "auto", width: "500px" }} />
         </Col>
       </Row>
       <Row className="justify-content-center">
