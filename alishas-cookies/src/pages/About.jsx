@@ -1,8 +1,14 @@
 import { Card, Container, Row, Col } from "react-bootstrap";
+import AlishaiAndTim from '../assets/AlishaiAndTim.jpeg';
 
 function About() {
   return (
     <Container className="mt-5">
+      <Row className="justify-content-center mb-4">
+        <Col md={8} className="text-center">
+          <img src={AlishaiAndTim} alt="Alishai and Tim" className="img-fluid rounded-circle shadow-sm" style={{ height: "auto", width: "500px" }} />
+        </Col>
+      </Row>
       <Row className="justify-content-center">
         <Col md={8}>
           <Card className="p-4 shadow-sm">
